@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+.start__page{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: fit-content;
+   background-color: #fff;
+   width:98%;
+   margin:10px auto 0px ;
+   padding: 10px 0;
+}
+.start__page p{
+    margin: 20px;
+    
+}
+/* start Header */
+header{
+  display: flex;
+  width: 98%;
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  justify-content: space-between;
+}
+header ul{
+    list-style-type: none;
+    padding: 10px;
+
+}
+.left__links{
+display: flex;
+/* border: 1px red solid; */
+width:10%;
+justify-content: space-between;
+
+}
+
+/* End Header */
+
+/* start main section */
+.main__section{
+    margin:auto ;
+    width:98%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+/* End main section */
+
+/* Start left section */
+.left__section{
+   width: 80%;
+   /* border: 1px solid green; */
+}
+.left__section article{
+    padding: 20px;
+    background-color: #fff;
+    /* border: 1px red solid; */
+    margin-top: 10px;
+}
+.left__section article div{
+    background-color: gray;
+    height: 70px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.left__section article h3{
+    margin-bottom: 10px;
+}
+.left__section article p{
+    margin-bottom: 10px;
+}
+/* End left section */
+
+/* Start right Aside */
+.right__aside{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main__div{
+      height: auto;
+      width: 90%;
+      background-color: #fff;
+      padding: 15px 10px;
+      /* border:1px green solid; */
+      margin-bottom: 5px;
+}
+.main__div h3{
+    margin-bottom: 10px;
+}
+.main__div div{
+    /* border: 1px red solid; */
+    padding: 15px 20px;
+    background-color: gray;
+}
+.main__div div:nth-child(2){
+    margin-top: 15px;
+}
+.main__div p{
+    margin-top: 10px;
+}
+/* End right Aside */
+
+/* start Footer */
+footer{
+    width:98%;
+    background-color: grey;
+    height: 50px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Footer */
